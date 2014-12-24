@@ -1,0 +1,50 @@
+/* 
+    Document   : index_html
+    Created on : 01-ene-2011, 11:01:04
+    Author     : Alberto
+    Description: Basic styles for web page.
+*/
+/*Aquí se indica que la etiqueta <body id="main_page">, contará con las siguientes especificaciones*/
+body#main_page{
+    background-image: url('../img/bottom_left_corner.png');/*Imágen de fondo*/
+    background-position: 0% 100%;/*Ubicación de la imágen de fondo*/
+    background-repeat: no-repeat;/*Para que no se repita como si se realizara con HTML normal*/
+    background-color: #FFF;/*Color de fondo, útil si se tiene imágenes con transparencia*/
+    background-attachment:fixed;/*Útil si se desea tener un fondo de pantalla estatico que no se mueva con respecto al mouse*/
+}
+/*la etiqueta <span class="message">, contará con los siguientes atributos*/
+span.message{
+    color:#ff0000;/*Color de fuente*/
+    font-weight: bold;/*Fuente en negritas*/
+    /*font-family: ;/*Tipografía a usar*/
+    text-align: center;/*Alineación del texto*/
+    /*font-size: xx-large;/*Tamaño de la fuente*/
+}
+/*al poner "*" se indica que todas las etiquetas contarán con ese atributo, recuerda que depende mucho del navegador*/
+*{
+    text-align: center;
+}
+/*Todas las etiquetas que sean de la clase "link" contarán con los siguientes atributos*/
+.link{
+    border: none;/*Carencia de un borde*/
+}
+/*Todo el conjunto de las etiquetas div se verá afectado por los siguientes atributos*/
+div{
+    text-align: center;
+    color:#000;
+    /*font-family: fantasy;*/
+}
+/*la etiqueta <div id="main_content"> se verá afectada por lo siguiente*/
+div#main_content{
+    width: 100%;
+    height: 100%;
+}
+div#header{
+        padding: 0 0 0 50%;
+}
+/*Indicas que todas las etiquetas <img> que se encuentren dentro del div con id="header" se verán afectadas por las caracteristicas dentro de las llaves*/
+div#header img{
+    width: auto;
+    height: auto;
+    border: yellowgreen dotted medium;
+}

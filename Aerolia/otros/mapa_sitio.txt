@@ -1,0 +1,18 @@
+1) Inicio
+2) Aerolia
+	2.1)Quienes Somos
+	2.2)Nuestro Objetivo
+	2.3)Filosofia
+	2.4)politicas
+3)Proyecto CRITER
+	3.1)Todos los puntos que toca el proyecto(cantidad variable de incisos)
+	3.2)Aerogenerador Domestico
+4) Eolik
+	4.1)alcanzes
+	4.2)documentos
+	4.3)pruebas
+	4.4)proceso de desarrollo
+	4.5)Actualidad
+	4.6)Imágenes
+5) Ubicacion
+6) Contacto

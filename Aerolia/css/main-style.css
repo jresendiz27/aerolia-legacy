@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: "Tahoma", "Arial", "Sans";
+    color:#000;
+}
+body{
+    background:#b8e9f8 url(../img/footer_white_new.png) bottom no-repeat;
+    background-attachment:fixed;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+    
+}
+div#main{
+    background:url(../img/sky.jpg) top no-repeat;
+    display:inline-block;
+    width: 800px;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+div#logo {
+    float:left;
+    width: 30%;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+div#banner{
+    float:right;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+div#logo img{
+    text-align: center;
+}
+div#main-content{
+    width:800px;
+    /*background-image:url(../img/fade.png);
+    background-repeat: repeat-x;
+    background-position: bottom;*/
+    display: inline-block;
+    text-align:justify;
+}
+div#login{
+    float:right;
+    display:inline-block;
+    border: #2dbacf thick thin;
+    height:124px;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+div#header{
+    margin-top: 50px;
+    width:800px;
+    height:110px;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+div#footer{
+    display:inline-block;
+    width:800px;
+    padding-bottom:15%;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+#login-data{
+    color:#FFFFFF;
+    text-align:justify;
+    background-color:#aabe43;
+    height:120px;
+}
+#content{
+    background-color:#0090ba;
+    width:auto;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+#header-content{
+    background-color:#99CC33;
+    display: block;
+    height:120px;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+#preview{
+    background-color:#009966;
+    display:block;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+#team{
+    background-color:#009999;
+    float:right;
+    width:200px;
+    text-align:center;
+    font-family:"Arial";
+    font-size: small;
+}
+img{
+    border:none;
+}
+#footer{
+    margin-top: 10px; display: block; /*border: 2px solid #2a506b;*/
+}
+#footer a{
+    text-decoration: none;
+    font-family: "Arial";
+    font-weight: bold;
+    color:#0090ba;
+}
+#footer a :link :active :visited{
+    text-decoration: none;    
+    font-family: "Arial";
+    font-weight: bold;
+    color:#0090ba;
+}
+#footer a:hover {
+    text-decoration: none;
+    font-family: "Arial";
+    font-weight: bold;
+    color:#FF6347;
+}
+#map{
+    display: inline;
+}
+#address{
+    display:inline-block;
+}
+#form{        
+    font-family:"Arial";
+    font-size: small;
+}
+a.nlink{
+    text-decoration: none;
+    font-family: "Arial";
+    font-weight: bold;
+    color:#0090ba;
+}
+
+a.nlink :link :active :visited{
+    text-decoration: none;
+    font-family: "Arial";
+    font-weight: bold;
+    color:#0090ba;
+}
+a.nlink :hover {
+    text-decoration: none;
+    font-family: "Arial";
+    font-weight: bold;
+    color:#FF6347;
+}
+#profile-data{
+    /*border: #2a506b solid 2px; display: inline-block; text-align: center;*/
+}#profile-functions{
+    text-align: left;
+}
+div#tabs{
+    /*border: 2px solid #2a506b;*/
+}
+div#gallery{
+    display:inline-block;
+    border: 3px solid #566f46;
+    background:  rgba(78,199,0,0.5);
+}
+div#gallery ul{
+    margin: 0;
+    padding: 0;    
+    list-style-type:none;
+}
+div#gallery ul li{
+    display:inline;
+}
+div#galler ul li a,img{
+    border:none;
+    text-decoration: none;
+}
+div#gallery ul li a div{
+    display:inline;
+}
+.corner, .corner img { width:70px; height:70px; margin:0;padding:0 }
+.corner { margin:auto; }
+input,select {
+    width: 270px;
+}
